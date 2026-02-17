@@ -1,0 +1,56 @@
+:root {
+  --primary: #D4AF37;
+  --secondary: #000000;
+  --background: #FFFFFF;
+  --text: #000000;
+  --success: #28a745;
+  --danger: #dc3545;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--background);
+  color: var(--text);
+}
+
+.header {
+  background: var(--secondary);
+  color: var(--primary);
+  text-align: center;
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: var(--secondary);
+  color: var(--primary);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: var(--secondary);
+  color: white;
+}
